@@ -547,3 +547,183 @@ PAGE 4:
   </body>
 </html>
 
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/3fb10671e9.js" crossorigin="anonymous"></script>
+    <title>Gabe.Co</title>
+    <style type="text/css">
+  li{
+            color: white;
+        }
+  li a:hover {
+    background-color: #00aced;
+    color:black;
+  }
+body{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    width: absolute;
+    height: absolute;
+    font-family: Lato;
+
+}
+
+btn-outline-light btn-sm my-2 my-sm-0:hover{
+  background-color: #00aced;
+  color:black;
+}
+
+#enter-text {
+    color: white;
+    text-align: center;
+    display: block;
+    height: 60px;
+    margin-top: 0px;
+    font-size: 33px;
+    line-height: 50px;
+    margin-top: calc(50vh - 100px);
+}
+
+/* target a tag inside #enter-text */
+#enter-text a {
+    padding: 22px 25px;
+    color: white;
+    text-decoration: none;
+    transition: .3s all;
+    border: 3px solid black;
+    border-radius: 50px;
+    transition: .3s all;
+    animation: glow 3s linear 0s infinite;
+}
+
+
+/* on hover of #enter-text, target a tag inside to change background color and color as well */
+#enter-text:hover a {
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    border: 3px solid white;
+    transition: .3s all;
+}
+
+.fas{
+    color: white;
+}
+
+
+/* animation - at start, have no shadow - halfway through have shadow with blur of 20px - at the end have no shadow */
+@keyframes glow {
+    0% { box-shadow: 0px 0px 0px rgba(255,255,255.9); }
+    50% { box-shadow: 0px 0px 20px rgba(255,255,255.9); }
+    100% { box-shadow: 0px 0px 0px rgba(255,255,255.9); }
+}
+
+.navbar{
+    background-color:black;
+}
+
+.p1{
+    color: white;
+    margin-left: 2%;
+    margin-top: 20px
+}
+.p11{
+    color: white;
+    margin-left: 5%;
+}
+
+.p2{
+    color: white;
+    margin-left: 2%
+}
+.p22{
+    color: white;;
+    margin-left: 5%;
+}
+
+.p3{
+    color: white;
+    margin-left: 2%
+}
+
+.p33{
+    color: white;
+    margin-left: 5%;
+}
+  
+    </style>
+  </head>
+  <body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg">
+        <a class="navbar-brand" href="main1.html"><i class="fas fa-home">Homepage</i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+                <li class="nav-item active">
+                        <a class="nav-link" href="main2.html"><i class="fas fa-male"> About Me</i></a>
+                      </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://github.com/gabeco123" target="_blank"><i class="fab fa-github"> Github</i></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="main3.html"><i class="fas fa-graduation-cap"> Capstone</i></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="main5.html"><i class="fas fa-bookmark"> Bibliography</i></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://github.com/gabeco123/gabecov2public/blob/master/allcode.txt" target="_blank"><i class="fas fa-code"> Code</i></a>
+            </li>
+          </ul>
+          <form class="nav-item ml-auto">
+               <a href="mailto:gmoneysniper4@gmail.com?subject=Mail from">
+                    <i style='font-size:34px' class='fas'>&#xf0e0; &nbsp; </i></a>
+                    </form>
+                    <form class="form-inline my-2 my-lg-0">
+                            <button class="btn btn-outline-light btn-sm my-2 my-sm-0" type="submit"> PYNOTB™</button>
+                          </form>
+
+        
+              
+        </div>
+         </nav>
+
+         <p class="p1">
+
+
+
+            “Why Study Computer Science?” DePauw University, http://www.depauw.edu/academics/departments-programs/computer-science/why-study-computer-science/.  </p>
+            <p class="p11"> > This article talks of the importance of computer science. Many don’t even understand what computer science is or what it does and this touches on that. I will apply this to my project because part of my general idea is to not only, code something, but to explain why it helps me and why coding in general is helpful and useful.</p>
+
+        <p class="p2">Flavin, Brianna. “8 Surprising Ways Computer Science Benefits Society.” Rasmussen College, 29 Aug. 2018, www.rasmussen.edu/degrees/technology/blog/ways-computer-science-benefits-society/.   </p>
+            <p class="p22"> > This article touches on some points that aren’t necessarily thought of when considering why computer science is helpful. It goes through practical applications for coding in the real world. I will apply these ideas to my project as one of my goals is to explain how coding can be relevant and practical.</p>
+
+        <p class="p3">
+            “Cracking the Code: How Computer Science Can Change Lives.” U.S. News & World Report, U.S. News & World Report, www.usnews.com/news/articles/2016-05-18/cracking-the-code-how-computer-science-can-change-lives.       </p>
+<p class="p33"> > Many don’t understand why coding is important. This article helps the general public see what coding does and how truly important it can be. Again, I will use the ideas found here in my personal project to highlight why coding is essential in the forward moving world.</p>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+	
+
+
